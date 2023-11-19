@@ -36,7 +36,7 @@ p {
 }
 
 .hero {
-  background: var(--secondary color);
+  background: var(--secondary-color);
   text-align: center;
   padding: 169px 20px;
 }
@@ -88,4 +88,38 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+.bottom-page {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+    margin-top: 60px;
+
+}
+.contact-info {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.email {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 2;
+}
+.email:hover {
+color: var(--branding-color);
+}
+
+.social-media {
+  margin-top: 15px;
+  font-size: 30px;
+
+}
+.instagram {
+  text-align: left;
+  padding-right: 40px;
+}
+.twitter {
+  text-align: left;
+  padding-right: 40px;
 }
