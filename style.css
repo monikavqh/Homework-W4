@@ -17,6 +17,8 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 
 h2 {
@@ -36,84 +38,3 @@ p {
   text-align: center;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
-.lorem {
-  background-color: none;
-}
-.yoga-link,
-.weather-link {
-  box-shadow: var(--box-shadow);
-  background-color: var(--primary-color);
-  color: white;
-  border: 1px solid var(--primary-color);
-  border-radius: 4px;
-  padding: 20px;
-  text-decoration: none;
-}
-a:hover {
-  color: #0b58ca;
-}
-.about-heading {
-  margin-top: 80px;
-}
-#contact {
-  margin-top: -60px;
-}
-.about-images {
-  border: 9px solid white;
-}
-.navigation-name {
-  margin-left: 60px;
-  padding-right: 5px;
-}
